@@ -9,6 +9,12 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
   }
+
+  body, main, header, footer {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; 
+}
   
   h1 {
     font-size: 2.5rem;
