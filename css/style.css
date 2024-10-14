@@ -1,3 +1,4 @@
+@media screen{
 body {
     font-size: 1rem; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,15 +9,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    justify-content: center;
-    justify-items: center;
   }
 
-  body, main, header, footer {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box; 
-}
   
   h1 {
     font-size: 2.5rem;
@@ -139,55 +133,5 @@ footer a:hover {
     background-color: #FFCB05; ;
     color: #00274C;
     
-}
+}}
 
-@media screen {
-
-
-    body {
-        padding: 0.5rem;
-    }
-
-    
-    h1 {
-        font-size: 1.8rem; 
-    }
-
-    h2 {
-        font-size: 1.5rem; 
-        padding: 0.5rem; 
-    }
-
-    p {
-        font-size: 0.9rem; 
-        line-height: 1.4; 
-    }
-
-    img {
-        max-width: 100%; 
-    }
-
-   
-    nav ul {
-        display: flex;
-        flex-direction: row; 
-        padding: 0;
-        margin: 0;
-    }
-
-    nav ul li {
-        margin: 5px 0; 
-    }
-
-    nav ul li a {
-        padding: 15px; 
-        width: 100%; 
-        text-align: center; 
-    }
-
-    footer {
-        padding: 0.5rem 0;
-    }
-}
-
-  
