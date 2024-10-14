@@ -99,9 +99,10 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-    nav ul li .active {
+   nav ul li .active {
         background-color: #FFCB05;
         color: #00274C;
+        text-decoration: underline;
     }
 
   nav ul li a:hover {
